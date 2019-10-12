@@ -1,6 +1,6 @@
 console.log('hi,welcome to codekul')
 
-var mob=123
+let mob=123
 if(true){
     var mob=456
 }
