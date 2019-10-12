@@ -1,1 +1,1 @@
-console.log('hi,Welcome to Codekul')
+console.log('hi,welcome to codekul')
