@@ -133,3 +133,10 @@ var myName="Pratiksha";
     var MyFirstName="Pratiksha";
      MyFirstNameLength=MyFirstName.length;
      console.log(MyFirstNameLength);
+
+     //first letter of string with bracket notation
+     var myFirstNameFirstLetter=0;
+     var myFirstName="Pratiksha";
+     myFirstNameFirstLetter=myFirstName[0];
+
+     console.log(myFirstNameFirstLetter);
