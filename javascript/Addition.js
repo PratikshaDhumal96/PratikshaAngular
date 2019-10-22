@@ -140,3 +140,41 @@ var myName="Pratiksha";
      myFirstNameFirstLetter=myFirstName[0];
 
      console.log(myFirstNameFirstLetter);
+
+     //bracket notation to find nth character in string
+     var FirstName="Pratiksha";
+     var SecondLetterOfFirstName=FirstName[1];
+     var ThirdLetterOfLastName=FirstName[2];
+     console.log(SecondLetterOfFirstName);
+     console.log(ThirdLetterOfLastName);
+
+     //bracket Notation to find last charcter of string
+      var Str="Pratiksha";
+      var LastCharcterOfString=Str[Str.length-1];
+      console.log(LastCharcterOfString);
+
+      //bracket notation to find nth-to-last charcter in string
+var FirstName="Pratiksha";
+var ThirdToLastCharcterOfFirstname=FirstName[FirstName.length-3];
+console.log(ThirdToLastCharcterOfFirstname);
+
+
+//word Blanks
+ function wordBlanks(myNoun,myAdjective,myVerb,myAdverb){
+   result ="";
+   result+="The "+myAdjective+ " " +myNoun+ " " +myVerb+ " to the store "  +myAdverb;
+   return result;
+ }
+
+ console.log(wordBlanks("dog","big","ran","quickly"));
+ console.log(wordBlanks("bike","slow","flew","slowly"));
+
+ //Access array data with indexes
+
+ var myArray=[50,60,30,54];
+
+
+
+ 
+
+
