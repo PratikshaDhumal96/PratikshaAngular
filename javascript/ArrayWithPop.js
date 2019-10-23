@@ -11,3 +11,7 @@ console.log(OurArray);
 var MyArray=[3,4,5];
 var RemovedFromMyArray=MyArray.pop();
  console.log(MyArray);
+
+ var Mydata=["prat","ika","sha"];
+ var RemovedFromMyData=Mydata.pop();
+ console.log(Mydata);
