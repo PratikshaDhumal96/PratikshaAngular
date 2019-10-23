@@ -1,5 +1,6 @@
 
 // function allow us to create reusable code in javascript.
+//
 
 function OurReusableFunction(){
     console.log("Hello,World");
@@ -14,4 +15,10 @@ function reusableFunction(){
 }
 
 reusableFunction();
+
+function useFunction(){
+    console.log("hey, hi pratiksha!!!");
+}
+
+useFunction();
  
