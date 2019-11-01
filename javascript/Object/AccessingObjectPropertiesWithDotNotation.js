@@ -1,3 +1,4 @@
+//Accessing object with dot notation
 var testObj={
         "hat":"ballcap",
         "shirt":"jersey",
