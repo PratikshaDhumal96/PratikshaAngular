@@ -1,3 +1,5 @@
+//We can change a else if statement into a switch case statement.
+
 function ReplacingIfElseWithSwitchCaseStatement(val){
     var answer="";
 
@@ -28,3 +30,4 @@ else if( val === 7){
 }
 
 console.log(ReplacingIfElseWithSwitchCaseStatement(42));
+
