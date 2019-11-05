@@ -7,4 +7,4 @@ function randomFraction(){
 }
 
 
-console.log(randomFraction());
+console.log(randomFraction()); //0.7551472196636504
