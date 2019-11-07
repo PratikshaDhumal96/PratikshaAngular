@@ -24,3 +24,5 @@ class Device implements GpsListener{
 
 let dv = new Device()
 dv.locate()
+
+// let dv

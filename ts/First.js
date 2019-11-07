@@ -6,3 +6,6 @@ var custMob = 12345;
 function dial(num) {
     return " \n" + num * num + ":stsfyfsqy\nsfasgs:sfhaa\nbasbs:askhs\n";
 }
+
+
+// 
