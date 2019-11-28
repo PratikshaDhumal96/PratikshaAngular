@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-muted">Data Binding!!!</h1>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Interpollation Binding</h3>
+      <!-- Interpollation binding u can assign to the text -->
+      <p>Project Title is {{title}}</p>  
+      <!-- Interpollation binding u can assign the type -->
+      <p>Input type is {{type}}</p>
+      <!-- and also function -->
+      <p>Time collapsed so far is </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Property Binding</h2>
+      <!-- properties of element are going to assign -->
+      <p><input type='text' [style.border]='brd' [style.color]="'blue'"></p>
+      <p [class.alert]="true" [class.alert-info]="true">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis dolorum animi nobis doloremque sunt dolore aperiam atque quia quo. Non veritatis in facere repellat ad obcaecati maiores libero nemo enim!</p>
+   <p [attr.hi]="hello" class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat magni pariatur asperiores et, eos molestias ipsa voluptas quidem provident deserunt similique, ex praesentium nemo? Vel temporibus dolor vero accusantium ullam.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Event Binding</h2>
+      <div class="box" (mouseenter)="OnMouseEnterpsassasas($event)"  (mouseleave)="OnMouseLeave($event)"
+      [style.background]="bxBkCl"></div>
+    </div>
+  </div>
+  </div>

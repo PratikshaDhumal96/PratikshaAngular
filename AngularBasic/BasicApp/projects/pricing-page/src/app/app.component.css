@@ -1,3 +1,10 @@
 .card-deck .card {
-    min-width: 220px;
+    min-width: 290px;
+  }
+  /* .text-center {
+    text-align: center!important;
+} */
+
+.container {
+    max-width: 960px;
   }
